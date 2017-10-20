@@ -1,0 +1,154 @@
+* {
+    margin:0;
+    padding:0;
+}
+html{
+
+}
+
+#wrap {
+    position:relative;
+    width:100vw;
+    /*height:300px;*/
+    margin:0 auto;
+    border:1px solid #9cc5ef;
+    overflow:hidden;
+}
+
+#slider {
+    width:300%;
+    height:100%;
+    font:1px/30vw Microsoft Yahei;
+    /*text-align:center;*/
+    /*color:#fff;*/
+    margin-left:0;
+    -webkit-animation:slide1 10s ease-out infinite;
+}
+
+#slider li {
+    float:left;
+    width:100vw;
+    height:100%;
+    position:relative;
+}
+#slider li:nth-child(1) {
+    background:url("pic/pic5.png") no-repeat;
+    background-size:cover;
+}
+
+#slider li:nth-child(2) {
+background:url("pic/pic6.png");
+    background-size:cover;
+}
+
+#slider li:nth-child(3) {
+background:url("pic/pic7.png");
+    background-size:cover;
+}
+
+
+/*创建三种动画策略*/
+@-webkit-keyframes slide1 {
+    0% { margin-left:0;}
+    23% { margin-left:0;}
+    33% { margin-left:-100vw;}
+    56% { margin-left:-100vw;}
+    66% { margin-left:-200vw;}
+    90% { margin-left:-200vw;}
+    100% {margin-left:0;}
+}
+
+@-webkit-keyframes slide2 {
+    0% { margin-left:-100vw;}
+    23% { margin-left:-100vw;}
+    33% { margin-left:-200vw;}
+    56% { margin-left:-200vw;}
+    66% { margin-left:0;}
+    90% { margin-left:0;}
+    100% {margin-left:-100vw;}
+}
+
+@-webkit-keyframes slide3 {
+    0% { margin-left:-200vw;}
+    23% { margin-left:-200vw;}
+    33% { margin-left:0;}
+    56% { margin-left:0;}
+    66% { margin-left:-100vw;}
+    90% { margin-left:-100vw;}
+    100% {margin-left:-200vw;}
+}
+
+
+/*修改动画名称*/
+#l01:checked ~ #wrap #slider {
+    -webkit-animation-name:slide1;
+}
+
+#l02:checked ~ #wrap #slider {
+    -webkit-animation-name:slide2;
+}
+
+#l03:checked ~ #wrap #slider {
+    -webkit-animation-name:slide3;
+}
+
+
+/*短暂地取消动画名称，模拟重启动画*/
+#l01:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:0;
+}
+
+#l02:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-600px;
+}
+
+#l03:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-1200px;
+}
+
+
+/*#opts {*/
+    /*width:600px;*/
+    /*height:40px;*/
+    /*margin:auto;*/
+    /*color:#fff;*/
+    /*text-align:center;*/
+    /*font:20px/40px Microsoft Yahei;*/
+/*}*/
+#opts{
+    position:absolute;
+    left:46%;
+
+
+}
+#opts label {
+    float:left;
+    width:12px;
+    height:12px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    margin-right:4px;
+    border:1px solid #e3e3e3;
+    cursor:pointer;
+    background: #FFFFFF;
+}
+#opts label:hover{
+    background: #29b078;
+}
+
+
+/* 隐藏Input按钮*/
+#l01, #l02, #l03 {
+    display:none;
+}
+
+
+
+
+
+
+

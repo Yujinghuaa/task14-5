@@ -1,0 +1,170 @@
+.color {
+  background: #fafafa; }
+
+.nav p {
+  font-size: 1.6rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #d0d6d9; }
+.nav span {
+  color: #26a26f;
+  font-size: 1.6rem; }
+.nav ul {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #edf1f2;
+  color: #333333;
+  font-weight: bold; }
+  .nav ul li {
+    padding: 2rem 4rem 2rem 0; }
+    .nav ul li a:hover {
+      background: #26a26f;
+      color: #FFFFFF; }
+  .nav ul .nav-1 {
+    font-weight: normal;
+    color: #999999; }
+
+.main .main-nav {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #d0d6d9;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  color: #333333;
+  font-weight: bold; }
+.main .box {
+  width: 26vw;
+  border: 1px solid #eeeded;
+  display: inline-block;
+  margin: 1%;
+  position: relative; }
+  .main .box .list {
+    position: absolute;
+    height: 85%;
+    font-size: 14px;
+    padding: 3rem;
+    letter-spacing: .1rem;
+    opacity: 0;
+    text-align: center; }
+    .main .box .list .list1 {
+      font-size: 1.8rem;
+      color: #FFFFFF;
+      padding: 3rem 0 1rem; }
+    .main .box .list .list2 {
+      font-size: 1.6rem;
+      color: #FFFFFF;
+      padding: 2rem;
+      text-align: left;
+      text-indent: 2rem; }
+  .main .box .list:hover {
+    opacity: .7;
+    background-color: #333333; }
+  .main .box .list-1 {
+    display: inline-block;
+    border-bottom: 1px solid #edf1f2; }
+    .main .box .list-1 .people-left {
+      float: left;
+      padding: 1rem; }
+    .main .box .list-1 .people-right .name {
+      font-size: 1.6rem;
+      padding: 2rem; }
+    .main .box .list-1 .people-right .introduce {
+      font-size: 1.4rem; }
+  .main .box .list-2 {
+    border-bottom: 1px solid #edf1f2; }
+    .main .box .list-2 .list-2-1 {
+      display: inline-block;
+      width: 49%;
+      height: 3rem;
+      font-size: 1.3rem;
+      line-height: 3rem; }
+      .main .box .list-2 .list-2-1 img {
+        margin-left: 1rem; }
+    .main .box .list-2 .list-2-2 {
+      border-right: 1px solid #edf1f2; }
+  .main .box .list-3 {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #edf1f2; }
+    .main .box .list-3 .list-3-1 {
+      display: inline-block;
+      width: 49%;
+      height: 3rem;
+      font-size: 1.3rem;
+      line-height: 3rem; }
+    .main .box .list-3 .list-3-2 {
+      border-right: 1px solid #edf1f2; }
+  .main .box .list-4 {
+    height: 9rem;
+    display: flex;
+    align-items: center; }
+    .main .box .list-4 .list-4-left {
+      display: inline-block;
+      width: 40%;
+      text-align: center; }
+    .main .box .list-4 .list-4-right {
+      display: inline-block;
+      width: 60%;
+      height: 9rem; }
+      .main .box .list-4 .list-4-right .time {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.3rem;
+        border-bottom: 1px solid #edf1f2;
+        border-left: 1px solid #edf1f2; }
+        .main .box .list-4 .list-4-right .time div {
+          display: inline-block;
+          line-height: 2.95rem; }
+      .main .box .list-4 .list-4-right .last-time {
+        border-bottom: none; }
+  .main .box .list-5 {
+    border-top: 1px solid #edf1f2;
+    border-bottom: 1px solid #edf1f2;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-weight: bold; }
+    .main .box .list-5 span {
+      color: red; }
+  .main .box .list-6 {
+    font-size: 1.3rem;
+    padding: 1rem; }
+
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  .main .box {
+    width: 90%;
+    border: 1px solid #edf1f2;
+    margin: 5rem 5%;
+    font-size: 1rem;
+    position: relative; }
+    .main .box .list {
+      position: absolute;
+      padding: 1rem;
+      height: 95%; }
+      .main .box .list .list1 {
+        padding: 3rem 0 1rem; }
+      .main .box .list .list2 {
+        padding: 1rem; }
+
+  .nav ul {
+    text-align: center;
+    display: block;
+    padding-left: 5rem; }
+    .nav ul li {
+      display: block; } }
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .main .main-nav {
+    font-size: 1.6rem;
+    border-bottom: 1px solid #edf1f2;
+    padding: 2rem 0;
+    margin-bottom: 3rem; }
+  .main .box {
+    width: 45%;
+    border: 1px solid #edf1f2;
+    margin: 2%; }
+    .main .box li {
+      display: inline-block; }
+
+  .nav ul li {
+    display: inline-block; } }
+@media screen and (min-width: 1200px) {
+  li {
+    display: inline-block; } }
+
+/*# sourceMappingURL=task8-2-1.css.map */

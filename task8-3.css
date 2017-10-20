@@ -1,0 +1,109 @@
+.lg-pic {
+  height: 15vw;
+  width: 100vw;
+  background: url("pic/pic24.png") no-repeat;
+  background-size: cover; }
+
+.main {
+  width: 100%;
+  background: #fafafa; }
+  .main .main-part .first {
+    color: #26a26f;
+    font-size: 1.4rem;
+    line-height: 5rem; }
+    .main .main-part .first span {
+      color: #0f0f0f; }
+  .main .main-part .box-left {
+    width: 20%;
+    float: left;
+    background: #FFFFFF;
+    text-align: center; }
+    .main .main-part .box-left p {
+      color: #333333;
+      font-size: 1.6rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid #e6e6e6; }
+    .main .main-part .box-left ul li {
+      padding-top: 2rem;
+      font-size: 1.4rem; }
+      .main .main-part .box-left ul li span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #ff640d;
+        margin-right: 10px; }
+      .main .main-part .box-left ul li a {
+        color: #26a26f; }
+      .main .main-part .box-left ul li .three {
+        background: #ff640d; }
+      .main .main-part .box-left ul li .font {
+        color: #ff640d; }
+    .main .main-part .box-left ul li:hover a {
+      color: #ff640d; }
+    .main .main-part .box-left ul li:hover span {
+      background: #ff640d; }
+    .main .main-part .box-left ul .last {
+      margin-bottom: 5rem; }
+  .main .main-part .box-right {
+    width: 75%;
+    float: right;
+    background: #FFFFFF;
+    margin-bottom: 8rem; }
+    .main .main-part .box-right .list-1 {
+      display: inline-block;
+      padding: 2rem 5rem; }
+      .main .main-part .box-right .list-1 .list-1-1 {
+        display: inline-block;
+        padding: 2rem 0; }
+      .main .main-part .box-right .list-1 .list-1-2 {
+        width: 80%;
+        float: right;
+        color: #c9c9c9;
+        font-size: 1.4rem;
+        text-indent: 2.4rem; }
+    .main .main-part .box-right .text {
+      font-size: 1.4rem;
+      color: #c9c9c9;
+      padding: 2rem 5rem;
+      text-indent: 2.4rem; }
+    .main .main-part .box-right .text-1 {
+      border-top: 1px solid #e6e6e6; }
+
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  .main {
+    width: 100%; }
+    .main .main-part .box-left {
+      width: 100%;
+      display: block;
+      margin-bottom: 4rem; }
+    .main .main-part .box-right {
+      width: 100%;
+      display: block; }
+      .main .main-part .box-right .list-1 {
+        display: inline-block;
+        padding: 2rem 5rem; }
+        .main .main-part .box-right .list-1 .list-1-1 {
+          display: block;
+          margin: 0 auto; }
+        .main .main-part .box-right .list-1 .list-1-2 {
+          width: 100%; } }
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .main {
+    width: 100%; }
+    .main .main-part .box-left {
+      display: block;
+      margin-bottom: 4rem; }
+    .main .main-part .box-right {
+      background: #FFFFFF;
+      display: block; }
+      .main .main-part .box-right .list-1 {
+        display: inline-block;
+        padding: 2rem 5rem; }
+        .main .main-part .box-right .list-1 .list-1-1 {
+          display: block;
+          margin: 0 auto; }
+        .main .main-part .box-right .list-1 .list-1-2 {
+          width: 100%; } }
+
+/*# sourceMappingURL=task8-3.css.map */
